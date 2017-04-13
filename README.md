@@ -1,4 +1,4 @@
-# Space48 AutoConfiguration
+# Space48 HTML Sitemap
 
 This module will automatically add a HTML sitemap containing a list of all site CMS pages and categories to your Magento 2 website. The URL path for the sitemap is: `/sitemap`
 
