@@ -1,0 +1,8 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block class="Space48\HtmlSitemap\Block\Cms" name="space48.sitemap.cms" template="cms.phtml" />
+            <block class="Space48\HtmlSitemap\Block\Categories" name="space48.sitemap.category" template="categories.phtml" />
+        </referenceContainer>
+    </body>
+</page>
