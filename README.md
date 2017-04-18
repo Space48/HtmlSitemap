@@ -19,4 +19,4 @@ From the terminal execute the following:
 
 then
 
-`composer require "space48/htmlsitemap:dev-master"`
+`composer require "space48/htmlsitemap:{module-version}"`
