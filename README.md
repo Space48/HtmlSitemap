@@ -15,7 +15,7 @@ To install this module copy the code from this repo to `app/code/Space48/HtmlSit
 
 From the terminal execute the following:
 
-`composer config repositories.space48-autoconfiguration vcs git@github.com:Space48/HtmlSitemap.git`
+`composer config repositories.space48-htmlsitemap vcs git@github.com:Space48/HtmlSitemap.git`
 
 then
 
