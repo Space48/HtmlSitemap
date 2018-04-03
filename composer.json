@@ -2,25 +2,25 @@
     "name": "space48/htmlsitemap",
     "description": "N/A",
     "require": {
-        "php": "~7.0.0",
-        "magento/framework": "^100.1.0| ^101.0.0"
+        "php": "~7.0.0|~7.1.0",
+        "magento/framework": "^100.1.0|^101.0.0"
     },
-      "require-dev": {
-    "magento/marketplace-eqp": "~1.0.5",
-    "magento-ecg/coding-standard": "2.*",
-    "phpunit/phpunit": "4.1.0"
-  },
+    "require-dev": {
+        "magento/marketplace-eqp": "~1.0.5",
+        "magento-ecg/coding-standard": "2.*",
+        "phpunit/phpunit": "4.1.0"
+    },
     "type": "magento2-module",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "license": [
         "proprietary"
     ],
-      "repositories": {
-    "magento": {
-      "type": "composer",
-      "url": "https://repo.magento.com/"
-    }
-  },
+    "repositories": {
+        "magento": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    },
     "autoload": {
         "files": [
             "registration.php"
