@@ -16,7 +16,7 @@ class Categories extends Topmenu
         \Magento\Framework\Data\Tree\Node $menuTree,
         $childrenWrapClass,
         $limit,
-        $colBrakes = []
+        array $colBrakes = []
     ) {
         $html = '';
         $children = $menuTree->getChildren();
