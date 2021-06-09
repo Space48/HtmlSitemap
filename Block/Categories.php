@@ -46,6 +46,7 @@ class Categories extends Topmenu
                 $html .= '</ul></li><li class="column"><ul>';
             }
             $html .= '<li ' . $this->_getRenderedMenuItemAttributes($child) . '>';
+            $html .= str_repeat(" - ", $childLevel);
             $html .= '<a href="' . $child->getUrl() . '" ' . $outermostClassCode . '><span>' . $this->escapeHtml(
                     $child->getName()
                 ) . '</span></a>' . $this->_addSubMenu(
