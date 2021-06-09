@@ -29,6 +29,9 @@ class Categories extends Topmenu
         $itemPositionClassPrefix = $parentPositionClass ? $parentPositionClass . '-' : 'nav-';
 
         foreach ($children as $child) {
+            if ($child->getIsParentActive() == false) {
+                continue;
+            }
             $child->setLevel($childLevel);
             $child->setIsFirst($counter == 1);
             $child->setIsLast($counter == $childrenCount);
